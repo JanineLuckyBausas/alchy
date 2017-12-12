@@ -1,0 +1,212 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.img-container{
+	background-color: #484848;
+}
+
+header .img-container .banner{
+	position: relative;
+	width: 1290px;
+	height: 950px;
+	display: block;
+	opacity: 0.4;
+}
+header .logo{
+	position: absolute;
+	width: 300px;
+	top: 205px;
+	left: 490px;
+}
+header h6{
+	position: absolute;
+	float: left;
+	color: white;
+	font-size: 12px;
+	top: 60px;
+	left: 40px;
+}
+header ul{
+	position: absolute;
+	top: 60px;
+	left: 455px;
+}
+header li{
+	float: left;
+	display: inline-block;
+	color: white;
+	color: white;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+/*HEADER TEXT*/
+
+header h1{
+	position: absolute;
+	top: 620px;
+	left: 475px;
+	color: #FFFEEA;
+}
+
+header p{
+	position: absolute;
+	color: white;
+	top: 670px;
+	left: 375px;
+	text-align: center;
+}
+
+/*ABOUT*/
+.container .container-about{
+	width: 90%;
+}
+
+.container .about{
+	width: 500px;
+	padding-top: 130px;
+	padding-left: 145px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 100px;
+}
+.container .about h2{
+	color: #2a2a2a;
+	padding-bottom: 20px;
+}
+.container .about p{
+	color: #606060;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.container .aboutimg-bg{
+	float: right;
+	width: 425px;
+	height: 600px;
+	background-color: #ffc04d;
+	opacity: 0.8;
+}
+
+.container .about-img{
+	display: block;
+}
+
+.container .about-img img{
+	position: absolute;
+	float: right;
+	width: 450px;
+	height: 450px;
+	margin: 100px 145px 0 10px;
+	padding: 10px;
+	border: 1px solid white;
+
+}
+
+/*SERVICES OFFERED*/
+.container .services{
+	display: inline-block;
+	margin: 0 150px;
+	width: 975px;
+}
+
+.container .services h3{
+	margin-bottom: 20px;
+}
+
+.container .services button{
+	display: inline-block;
+	float: left;
+	width: 311px;
+	height: 205px;
+	margin: 0 20px 20px 0;
+	border-radius: 0;
+}
+
+.container .services button:nth-child(3),
+.container .services button:nth-child(6),
+.container .services button:nth-child(9){
+	margin-right: 0;
+}
+
+
+.container .services button:first-child{
+	background: url(aluminum-composite-panel-signage.jpg);
+	background-size: 100%;
+	
+}
+
+.container .services button:nth-child(2){
+	background: url(build-up-acrylic-signage.jpg);
+	background-size: 100%;
+}
+
+
+.container .services button:nth-child(3){
+	background: url(build-up-acrylic-and-stainless-signage.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(4){
+	background: url(backwall-indoor-outdoor-directory-signage.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(5){
+	background: url(adhesive-vinyl-on-flex-substrate-signage.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(6){
+	background: url(frosted-signage-and-dividers.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(7){
+	background: url(led-signage-and-lighting-system.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(8){
+	background: url(roof-top-signage.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(9){
+	background: url(neon-fabricated-signage.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(10){
+	background: url(monumental-signage.jpg);
+	background-size: 100%;
+}
+
+.container .services button:nth-child(11){
+	background: url(indoor-outdoor-directory-signage.jpg);
+	background-size: 100%;
+}
+
+
+
+
+
+
