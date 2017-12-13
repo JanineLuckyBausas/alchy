@@ -15,7 +15,7 @@ body{
 /*HEADER*/
 
 .img-container{
-	background-color: #484848;
+	background-color: #323232;
 }
 
 header .img-container .banner{
@@ -106,16 +106,13 @@ header p{
 	opacity: 0.8;
 }
 
-.container .about-img{
-	display: block;
-}
 
 .container .about-img img{
 	position: absolute;
 	float: right;
 	width: 450px;
 	height: 450px;
-	margin: 100px 145px 0 10px;
+	margin: 90px 145px 0 10px;
 	padding: 10px;
 	border: 1px solid white;
 
@@ -124,86 +121,232 @@ header p{
 /*SERVICES OFFERED*/
 .container .services{
 	display: inline-block;
-	margin: 0 150px;
+	margin: 30px 150px 30px 150px;
 	width: 975px;
+	height: 1000px;
+}
+
+.container .services div{
+	display: inline-block;
 }
 
 .container .services h3{
 	margin-bottom: 20px;
 }
 
-.container .services button{
+.container .services .images{
+	position: absolute;
+	float: left;
+}
+.container .services .images img{
+	position: absolute;
+	width: 305px;
+	height: 205px;
+	margin: 0 25px 20px 0;
+	opacity: 0.11;
+}
+
+.container .services .images img:nth-child(3),
+.container .services .images img:nth-child(6),
+.container .services .images img:nth-child(9){
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.container .services .images .img-container{
+	position: relative;
+	width: 305px;
+	height: 205px;
+	margin: 0 25px 20px 0;
+}
+
+.container .services .img-container a{
+	text-decoration: none;
+}
+
+
+.container .services .img-container p{
+	position: absolute;
+	text-align: center;
+	left: 10%;
+	right: 10%;
+	top: 40%;
+	font-size: 16px;
+	color: #ffffff;
+	float: left;
+	display: inline-block;
+}
+
+
+/*SUBFOOTER*/
+
+.container .subfooter .subfooter-img img{
+	display: block;
+	position: absolute;
+	float: left;
+	width: 500px;
+	height: 500px;
+	margin: 60px 0 10px 150px;
+}
+
+.container .subfooter .subfooter-img-bg{
+	float: left;
+	width: 400px;
+	height: 630px;
+	background-color: #ffc04d;
+	opacity: 0.8;
+}
+
+.container .contact{
+	display: inline-block;
+	float: right;
+	margin: 55px 150px 0 0;
+	width: 455px;
+}
+
+.container .contact h2{
+	margin-bottom: 30px;
+}
+
+.container .contact p{
+	color: #606060;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.container .contact .lorem{
+	padding: 20px;
+	width: 460px;
+	color: #f2f2f2f2;
+	background-color: #c3c3c3;
+	font-size: 12px;
+}
+
+.container .contact .form{
+	padding: 0;
+	width: 500px; 
+	column-count: 2;
+	margin:0 0 10px 0;
+}
+
+.container .contact .form p{
+	display: inline-block;
+	width: 250px;
+	margin-bottom: 5px;
+}
+
+.container .contact .form input{
+	border-radius: 0;
+	text-decoration: none;
+	border: 1px solid #82828282;
+	width: 240px;
+	height: 35px;
+	margin:0 10px 15px 0;
+}
+
+.container .contact .message p{
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+.container .contact .message textarea{
+	width: 500px;
+	height: 65px;
+	padding: 0;
+	margin:0;
+}
+
+.container .contact .message button{
+	width: 150px;
+	border-radius: 0;
+	background: #f01235;
+	padding: 10px;
+	margin:10px 0 0 0;
+	color: white;
+}
+
+/*FOOTER-PINK*/
+
+.container .footer-1{
+	float: left;
+	display: block;
+	width: 100%;
+	background-color: #f01232;
+}
+
+.container .footer-1 p{
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	padding: 60px 0;
+}
+
+/*FOOTER GRAY*/
+
+.container .footer-2{
+	float: left;
+	width: 100%;
+	height: 30px;
+	background-color: #404040;
+	padding: 60px;
+}
+
+.container .footer-2 div{
+	display: inline-block;
+	color: #ffffff;
+}
+
+.container .footer-2 .pic img{
+	display: block;
+	margin-left: 310px;
+	width: 80px;
+	border-radius: 65px;
+	opacity: 0.8;
+}
+
+.container .footer-2 .text{
+	padding-top: 5px;
+	margin-right: 300px;
+	margin-left: 10px;
+	position: absolute;
+}
+
+.container .footer-2 p{
+	font-size: 11px;
+	line-height: 15px;
+	opacity: 0.5;
+}
+
+.container .footer-2 h5{
+	margin-top: 10px;
+}
+
+/*FOOTER BOTTOM*/
+
+.container .bottom{
+	width: 100%;
 	display: inline-block;
 	float: left;
-	width: 311px;
-	height: 205px;
-	margin: 0 20px 20px 0;
-	border-radius: 0;
+	padding: 20px 0;
+	background-color: #404040;
+	font-size: 11px;
+
 }
 
-.container .services button:nth-child(3),
-.container .services button:nth-child(6),
-.container .services button:nth-child(9){
-	margin-right: 0;
+.container .bottom p{
+	width: 60%;
+	margin-left: 200px;
+	border-top: 1px solid #505050;
+	padding: 25px 0 50px 0;
+	color: white;
 }
 
-
-.container .services button:first-child{
-	background: url(aluminum-composite-panel-signage.jpg);
-	background-size: 100%;
-	
+.container .bottom a{
+	float: right;
+	text-decoration: none;
+	color: white;
 }
 
-.container .services button:nth-child(2){
-	background: url(build-up-acrylic-signage.jpg);
-	background-size: 100%;
-}
-
-
-.container .services button:nth-child(3){
-	background: url(build-up-acrylic-and-stainless-signage.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(4){
-	background: url(backwall-indoor-outdoor-directory-signage.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(5){
-	background: url(adhesive-vinyl-on-flex-substrate-signage.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(6){
-	background: url(frosted-signage-and-dividers.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(7){
-	background: url(led-signage-and-lighting-system.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(8){
-	background: url(roof-top-signage.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(9){
-	background: url(neon-fabricated-signage.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(10){
-	background: url(monumental-signage.jpg);
-	background-size: 100%;
-}
-
-.container .services button:nth-child(11){
-	background: url(indoor-outdoor-directory-signage.jpg);
-	background-size: 100%;
-}
 
 
 
